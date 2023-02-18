@@ -20,7 +20,7 @@ published: false
 
 $right-sidebar-width-narrow: 200px !default;
 $right-sidebar-width: 220px !default;
-$right-sidebar-width-wide: 250px !default;
+$right-sidebar-width-wide: 270px !default;
 // $right-sidebar-width: 300px !default;
 // $right-sidebar-width-wide: 400px !default;
 ```
