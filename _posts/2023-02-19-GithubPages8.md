@@ -1,11 +1,13 @@
 ---
 layout: single
-title: '깃허브 블로그 만들기 for Mac OS: 8.페이지 좌 우측 공간'
+title: '깃허브 블로그 만들기 for Mac OS: 8.페이지 좌 우측 공간, 및 좌측 목차 생성 관련 링크'
 categories: 'GitHubBlog'
 tags: ['GitHub Pages', 'Jekyll']
 toc: true   # 우측 목차 여부
+toc_sticky: true   # 우측 목차 여부
+
 author_profile: True  # 좌측 프로필 여부
-published: false 
+published: true
 ---
 ## 좌우측 공간
 폰트사이즈를 줄여도 좌 우측 공간때문에 보는 입장에서 답답함이 느껴져서 이 부분을 수정하고자 한다. 이 방벙 또한 간단하다.
@@ -19,13 +21,20 @@ published: false
    ========================================================================== */
 
 $right-sidebar-width-narrow: 200px !default;
-$right-sidebar-width: 220px !default;
-$right-sidebar-width-wide: 250px !default;
+$right-sidebar-width: 250px !default;
+$right-sidebar-width-wide: 300px !default;
 // $right-sidebar-width: 300px !default;
 // $right-sidebar-width-wide: 400px !default;
 ```
+
+- Before
+![before](/assets/blog_img/before.png)
+
+- After
+![after](/assets/blog_img/after.png)
+
 ## 좌측 글 모음 붙이기
+https://ansohxxn.github.io/blog/category/
+식빵맘님 링크에 좌측 목차 설정에 대한 설명이 너무 자세히 잘 되어있어서 따로 글을 작성할 필요성을 못느꼈다. 이 순서 그대로 따라가면 목차는 성공적으로 생성된다.
 
 ## search 이모티콘으로
-
-## About 페이지
