@@ -1,10 +1,11 @@
 ---
 layout: single
-title: '깃허브 블로그 만들기 for Mac OS: 8.페이지 좌 우측 공간, 및 좌측 목차 생성 관련 링크'
+title: '깃허브 블로그 만들기 for Mac OS: 8.페이지 좌 우측 공간 넓히기, 좌측 목차, 하이퍼링크 밑줄 제거'
+excerpt: ' '
 categories: 'GitHubBlog'
 tags: ['GitHub Pages', 'Jekyll']
 toc: true   # 우측 목차 여부
-toc_sticky: true   # 우측 목차 여부
+toc_sticky: true   # 우측 목차 따라오기
 
 author_profile: True  # 좌측 프로필 여부
 published: true
@@ -34,7 +35,32 @@ $right-sidebar-width-wide: 300px !default;
 ![after](/assets/blog_img/after.png)
 
 ## 좌측 글 모음 붙이기
-https://ansohxxn.github.io/blog/category/
-식빵맘님 링크에 좌측 목차 설정에 대한 설명이 너무 자세히 잘 되어있어서 따로 글을 작성할 필요성을 못느꼈다. 이 순서 그대로 따라가면 목차는 성공적으로 생성된다.
+그리고 더 알차게 화면을 채우기 위해서 좌측에 목차를 추가하려고 한다. 이와 관련되 내용은 [식빵맘님 블로그 링크](https://ansohxxn.github.io/blog/category/)에 설명이 너무 자세히 잘 되어있어서 추가 작성의 필요성을 느끼진 목했다.
 
-## search 이모티콘으로
+## 하이퍼링크 밑줄제거
+- _sass/_minimal-mistakes/_base.scss 로 이동해서 127번쨰 줄 코드 수정
+- 훨씬 깖끔하고 가독성도 좋아진 느낌을 받는다,
+
+```scss
+a {
+  text-decoration: none; // 추가된 코드
+
+  &:focus {
+    @extend %tab-focus;
+  }
+
+  &:visited {
+    color: $link-color-visited;
+  }
+
+  &:hover {
+    color: $link-color-hover;
+    outline: 0;
+  }
+}
+```
+-before
+![before](/assets/blog_img/linkbefore.png)
+
+-after
+![after](/assets/blog_img/linkafter.png)
