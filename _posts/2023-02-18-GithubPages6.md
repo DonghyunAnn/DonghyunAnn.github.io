@@ -2,7 +2,6 @@
 layout: single
 title: '깃허브 블로그 만들기 for Mac OS: 6. 댓글기능 추가 (Utterances)'
 excerpt: ''
-
 categories: 'GitHubBlog'
 tags: ['GitHub Pages', 'Jekyll']
 toc: true   # 우측 목차 여부
