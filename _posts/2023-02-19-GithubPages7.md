@@ -1,6 +1,7 @@
 ---
 layout: single
 title: '깃허브 블로그 만들기 for Mac OS: 7. 폰트 디자인 및 사이즈 설정'
+excerpt: ''
 categories: 'GitHubBlog'
 tags: ['GitHub Pages', 'Jekyll']
 toc: true   # 우측 목차 여부

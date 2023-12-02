@@ -1,6 +1,7 @@
 ---
 layout: single
 title: '깃허브 블로그 만들기 for Mac OS: 4. 구글 애널리틱스, 구글 및 네이버 노출'
+excerpt: ''
 categories: 'GitHubBlog'
 tags: ['GitHub Pages', 'Jekyll']
 toc: true   # 우측 목차 여부

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: '깃허브 블로그 만들기 for Mac OS: 1. 블로그생성과 커밋(잔디심기 까지)'
+excerpt: ''
 categories: 'GitHubBlog'
 tags: ['GitHub Pages', 'Jekyll']
 toc: true   # 우측 목차 여부

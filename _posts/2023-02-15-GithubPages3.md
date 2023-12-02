@@ -1,6 +1,7 @@
 ---
 layout: single
 title: '깃허브 블로그 만들기 for Mac OS: 3. 기본 레이아웃 설정 (테마, 타이틀, SNS링크, 날짜 설정 등)'
+excerpt: ''
 categories: 'GitHubBlog'
 tags: ['GitHub Pages', 'Jekyll']
 toc: true   # 우측 목차 여부

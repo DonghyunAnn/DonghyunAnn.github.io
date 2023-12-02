@@ -12,13 +12,23 @@
       {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
     {% endfor %}
     {% if page.sidebar.nav %}
-      {% include nav_list nav=page.sidebar.nav %}
+      {% include nav_list nav=page.sidebar.nav %}{% endif %}
     {% endif %}
+  <!--좌측 사이드바 카테고리 추가-->  
+  {% if page.sidebar_main %}
+  {% include nav_list_main %}
   {% endif %}
   
-  {% if page.sidebar_main %}
-    {% include nav_list_main %}
-  {% endif %}
-
-  </div>
+  <!--Hits 방문자수-->
+  <a href="https://hits.seeyoufarm.com">
+    <style>
+      .hits {
+        width: auto; height: auto;
+        max-width: 99px;
+        max-height: 20px;
+      }
+    </style>
+    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fdonghyunann.github.io&count_bg=%2370E0CA&title_bg=%23888383&icon=furrynetwork.svg&icon_color=%2370E0CA&title=%EB%B0%A9%EB%AC%B8%EC%9E%90%EC%88%98&edge_flat=false"/>
+  </a>
+</div>
 {% endif %}
